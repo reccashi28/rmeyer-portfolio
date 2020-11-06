@@ -1,7 +1,9 @@
 const menu = document.querySelector('.navbar');
 const hamburger = document.querySelector('.hamburger-menu');
 const navItem = document.querySelectorAll('.nav-item');
-
+const projectName = document.querySelector('.proj-name');
+const projectBtn = document.querySelector('.proj-btn');
+//eventlistener
 hamburger.addEventListener('click', () => {
  hamburger.classList.toggle('change');
   menu.classList.toggle('fadein');
@@ -10,7 +12,15 @@ hamburger.addEventListener('click', () => {
   });
 });
 
+projectName.addEventListener('click', () => {
+  projectBtn.style.display = 'block';
+});
+projectName.addEventListener('mouseleave', () => {
+  projectBtn.style.display = 'none';
+});
 
+
+//animations
 var scroll = window.requestAnimationFrame || function( callback ) { 
     window.setTimeout( callback, 1000/60)};
 
@@ -30,6 +40,7 @@ function loop() {
 
 loop();
 
+//if element is shown in viewport
 function isElementInViewport(el) {
     // special bonus for those using jQuery
     if (typeof jQuery === "function" && el instanceof jQuery) {

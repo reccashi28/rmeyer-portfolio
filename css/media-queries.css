@@ -39,6 +39,9 @@
         width: 45%;
 
     }
+    footer {
+        flex-direction: row;
+    }
 }
 
 @media only screen and (min-width: 1024px){
