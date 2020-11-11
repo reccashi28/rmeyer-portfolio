@@ -2,18 +2,11 @@
     .col img {
         width: 80%;
     }
- 
 }
-
 @media only screen and (min-width: 760px){
-    
-    #logo {
-      
+    #logo {      
         left: 13%;
-
     }
-   
-
     .social-media,
     .header-intro a{
         align-self: center;
@@ -44,8 +37,7 @@
     }
 }
 
-@media only screen and (min-width: 1024px){
-    
+@media only screen and (min-width: 1024px){    
    .header {
         max-width: 1140px;
         margin: auto;
@@ -57,12 +49,9 @@
        transition: all 2s ease;
         left: 50%;
         transform: translate(-50%, -50%);
-
     }
-    .hamburger-menu {
-       
-        display: none;
-        
+    .hamburger-menu {   
+        display: none;     
     }
     .navbar {
         display: none;
@@ -71,8 +60,6 @@
         transition: all 2s ease-in;
         display: flex;
         margin: auto;
-        /* justify-content: center;
-        align-items: center; */
         z-index: 100;
         margin-top: 2rem;
         border-top: 2px solid maroon;
@@ -86,7 +73,6 @@
     }
     .navitem{
         list-style-type: none;
-        /* border: 2px solid green; */
         width: 100%;
         text-align: center;
     }
@@ -115,13 +101,11 @@
     }
     #about-me {
         width: 80%;
-
     }
     #about-me h1,
     .skills {
         margin: 1.5rem 0;
     }
-
     #about-me,
     .about-skills{
         display: flex;
@@ -132,7 +116,6 @@
     .skill,
     .abt-me-content{
         width: 50%;
-        /* border: 2px solid red; */
     }
     .abt-me-img{
         display: flex;
@@ -149,5 +132,4 @@
     .img2 {
         order: 2;
     }
-
 }
