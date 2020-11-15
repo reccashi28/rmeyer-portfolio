@@ -18,14 +18,26 @@ projectName.addEventListener('click', () => {
   projectBtn.style.display = 'block';
 });
 
-
 projectName.addEventListener('mouseleave', () => {
   projectBtn.style.display = 'none';
 });
 
+window.addEventListener('load', () => {
+  gotoTop.style.display = 'none';
+});
+
+window.addEventListener('scroll', () => {
+  if(window.scrollY > 200){
+    gotoTop.style.display = "block";
+  } else {
+    gotoTop.style.display = "none";
+  }
+});
+
 gotoTop.addEventListener('click', () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  window.scrollTo({
+    top: 0
+  });
 });
 
 //animations
@@ -36,8 +48,6 @@ const scroll = window.requestAnimationFrame || function( callback ) {
       window.setTimeout( callback, 1000/60)};
 
 const elementsToShow = document.querySelectorAll('.show-on-scroll');
-
-
 
 function loop() {
     elementsToShow.forEach(function (e) {
@@ -51,8 +61,6 @@ function loop() {
 }
 
 loop();
-
-
 
 //if element is shown in viewport
 function isElementInViewport(el) {

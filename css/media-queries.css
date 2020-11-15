@@ -49,7 +49,9 @@
     footer {
         flex-direction: row;
     }
-  
+    .fa-arrow-up {
+        right: 15%;
+      }
 }
 
 @media only screen and (min-width: 1024px){    
@@ -153,9 +155,12 @@
     .contact-questionm {
         width: 150px;
     }
-    .fa-arrow-up {
-      right: 25%;
-        /* display: none; */
-    }
+   
 
+}
+
+@media only screen and (min-width: 1460px) {
+    .fa-arrow-up {
+        right: 25%;
+    }
 }

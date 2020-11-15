@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;   
 }
-
+html {
+    scroll-behavior: smooth;
+}
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -47,14 +49,17 @@ body {
 }
 
 .fa-arrow-up {
-    color: chocolate;
+    color: white;
     position: fixed;
     font-size: 30px;
     z-index: 1000;
     right: 50px;
-    bottom: 1rem;
+    bottom: 2rem;
     cursor: pointer;
-    display: none;
+    animation: fadeIn ease 2s;
+    background-color: chocolate;
+    padding: 5px;
+    border-radius: 3px;
 }
 /* ============ end of general setting ================= */
 
@@ -354,6 +359,14 @@ opacity: 1;
 transform: translateY(0);
 } 
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 @keyframes border-move {
     0% {
         width: 100%;
