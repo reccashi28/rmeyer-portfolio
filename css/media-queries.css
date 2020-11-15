@@ -2,6 +2,7 @@
     .col img {
         width: 80%;
     }
+
 }
 @media only screen and (min-width: 760px){
     #logo {      
@@ -30,11 +31,25 @@
     }
     .col1, .col2 {
         width: 45%;
-
+    }
+    .contact-content h3 {
+        margin-top: 10rem;
+    }
+    .contact-svg p {
+        top: 7%;
+        left: 50%;
+        transform: translate(-50%, -7%);
+        font-size: 30px;
+    }
+    .contact-questionm {
+        width: 100px;
+        right: 13%;
+        top: 1%;
     }
     footer {
         flex-direction: row;
     }
+  
 }
 
 @media only screen and (min-width: 1024px){    
@@ -95,10 +110,7 @@
         height: 100vh;
         max-height: 899px;
     }
-    .contact-container{
-        height: 70vh;
-        max-height: 899px;
-    }
+
     #about-me {
         width: 80%;
     }
@@ -129,7 +141,21 @@
         border: 2px solid rgba(0, 0, 0, 0.1);
         transition: all 2s ease;
     }
-    .img2 {
-        order: 2;
+    .contact-content h3 {
+        margin-top: 15rem;
     }
+    .contact-svg p {
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        font-size: 30px;
+    }
+    .contact-questionm {
+        width: 150px;
+    }
+    .fa-arrow-up {
+      right: 25%;
+        /* display: none; */
+    }
+
 }

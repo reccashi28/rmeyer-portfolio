@@ -3,6 +3,8 @@ const hamburger = document.querySelector('.hamburger-menu');
 const navItem = document.querySelectorAll('.nav-item');
 const projectName = document.querySelector('.proj-name');
 const projectBtn = document.querySelector('.proj-btn');
+const gotoTop = document.querySelector('.fa-arrow-up');
+
 //eventlistener
 hamburger.addEventListener('click', () => {
  hamburger.classList.toggle('change');
@@ -15,16 +17,27 @@ hamburger.addEventListener('click', () => {
 projectName.addEventListener('click', () => {
   projectBtn.style.display = 'block';
 });
+
+
 projectName.addEventListener('mouseleave', () => {
   projectBtn.style.display = 'none';
 });
 
+gotoTop.addEventListener('click', () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
 
 //animations
-var scroll = window.requestAnimationFrame || function( callback ) { 
+const scroll = window.requestAnimationFrame || function( callback ) { 
     window.setTimeout( callback, 1000/60)};
 
-var elementsToShow = document.querySelectorAll('.show-on-scroll');
+  const scroll2 = window.requestAnimationFrame || function( callback ) { 
+      window.setTimeout( callback, 1000/60)};
+
+const elementsToShow = document.querySelectorAll('.show-on-scroll');
+
+
 
 function loop() {
     elementsToShow.forEach(function (e) {
@@ -34,11 +47,12 @@ function loop() {
             e.classList.remove('is-visible');
         }
     });
-
     scroll(loop);
 }
 
 loop();
+
+
 
 //if element is shown in viewport
 function isElementInViewport(el) {
@@ -46,7 +60,7 @@ function isElementInViewport(el) {
     if (typeof jQuery === "function" && el instanceof jQuery) {
       el = el[0];
     }
-    var rect = el.getBoundingClientRect();
+    const rect = el.getBoundingClientRect();
     return (
       (rect.top <= 0
         && rect.bottom >= 0)
