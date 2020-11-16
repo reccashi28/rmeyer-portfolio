@@ -113,15 +113,16 @@
         max-height: 899px;
     }
 
-    #about-me {
+    #about {
         width: 80%;
     }
-    #about-me h1,
+    #about h1,
     .skills {
         margin: 1.5rem 0;
     }
-    #about-me,
-    .about-skills{
+    #about,
+    .about-skills,
+    .abt-me-img{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -130,11 +131,6 @@
     .skill,
     .abt-me-content{
         width: 50%;
-    }
-    .abt-me-img{
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .abt-me-img a img{
         width: 200px;

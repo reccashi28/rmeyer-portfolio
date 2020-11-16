@@ -34,7 +34,7 @@ body {
 }
 
 .project,
-#about-me-wrap,
+#about-me,
 .contact,
 .social,
 .empty {
@@ -648,7 +648,7 @@ transform: translateY(0);
     font-family: 'Raleway', sans-serif;
 }
 
-#about-me-wrap {
+#about-me {
     width: 100%;
     z-index: 10;
 }
@@ -656,26 +656,22 @@ transform: translateY(0);
 
     margin: 2rem 0 2rem 0;
 }
-#about-me p{
+#about p{
     font-size: 20px;
     padding-bottom: 2rem;
     line-height: 40px;
     
 }
 
-#about-me{
+#about{
     position: relative;
-    /* border: 2px solid red; */
-
 }
 .abt-me-img{
-    /* border: 2px solid red; */
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
     margin-bottom: 1.5rem;
-    
 }
 
 .abt-me-img a img{
@@ -696,15 +692,12 @@ transform: translateY(0);
     list-style-type: none;
 }
 
-
 .about-hr {
     border: 2px dotted maroon;
     width: 100%;
     margin: 2rem 0 2rem 0;
 }/* ============================= end ofabout me ====================== */
-
  
-
 /* =================== contact forms ================= */
 .contact,
 .contact-content,
