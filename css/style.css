@@ -131,7 +131,7 @@ header {
     /* border: 2px solid red; */
     background-color: chocolate;
     clip-path: circle(80px at 90% -40%);
-    -webkit-clip-path: circle(80px at 100% -20%);
+    -webkit-clip-path: circle(80px at 100% -40%);
     transition: all 0.8s ease-in-out;
 }
 
