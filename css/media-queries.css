@@ -1,9 +1,3 @@
-/* @media only screen and (min-width: 410px){
-    .col img {
-        width: 80%;
-    }
-
-} */
 @media only screen and (min-width: 760px){
     #logo {      
         left: 13%;
@@ -41,8 +35,7 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
-    }
-       
+    }     
     .navitem{
         list-style-type: none;
         width: 100%;
@@ -68,15 +61,12 @@
      }
      .left-slide {
         font-size: 40px;
-    
-        
     }
     .col {
         height: 390px;
         width: 600px;
     }
     .row {
-
         flex-direction: row;
     }
     .col img {
@@ -140,7 +130,6 @@
         height: 100vh;
         max-height: 899px;
     }
-
     #about {
         width: 80%;
     }
@@ -148,7 +137,6 @@
     .skills {
         margin: 1.5rem 0;
     }
-
     .contact-questionm {
         width: 100px;
         right: 10%;
@@ -162,8 +150,7 @@
    }
    .contact-content {
     width: 80%;
-}
-
+    }
 }
 
 @media only screen and (min-width: 1460px) {
