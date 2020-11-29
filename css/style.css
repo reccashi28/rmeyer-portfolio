@@ -653,7 +653,7 @@ transform: translateY(0);
     justify-content: start;
     flex-direction: column;
     margin: 1rem 0;
-    width: 100%;
+    width: 80%;
 }
 form:nth-child(1){
     margin-top: 1rem;

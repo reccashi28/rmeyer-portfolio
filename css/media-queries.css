@@ -89,6 +89,9 @@
         font-size: 30px;
         line-height: 35px;
     }
+    /* .contact-content {
+        width: 80%;
+    } */
     footer {
         flex-direction: row;
     }
@@ -148,9 +151,7 @@
    #contact {
        height: 90vh;
    }
-   .contact-content {
-    width: 80%;
-    }
+  
 }
 
 @media only screen and (min-width: 1460px) {
