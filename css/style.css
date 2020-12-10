@@ -72,7 +72,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    background-color: #00334e;
+    /* background-color: #00334e; */
     border-radius: 10px;
 }
 #logo {
