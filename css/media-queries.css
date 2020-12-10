@@ -75,6 +75,9 @@
     .col1, .col2 {
         width: 40%;
     }
+    .col-country {
+        width: 90%;
+    }
     .contact-questionm {
         width: 100px;
         right: 8%;
