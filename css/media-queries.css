@@ -47,7 +47,7 @@
         font-size: 20px;
     }
     .navitem:hover{
-        background-color: #147d79;
+        background-color: #00334e;
         color: white;
     }
     .navitem:hover .navlink{
