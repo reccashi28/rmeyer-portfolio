@@ -221,7 +221,7 @@ header {
     font-family: Satisfy, sans-serif;
     font-size: 30px;
     animation-name: left-animation;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     font-weight: 600;
     color:  rgb(233, 151, 0);
     text-align: center;
@@ -231,7 +231,7 @@ header {
 }
 .right-slide{
     animation-name: right-animation; 
-    animation-duration: 0.5s;
+    animation-duration: 1s;
     font-size: 20px;
     padding: 10px 0;
     color: rgb(233, 151, 0);
