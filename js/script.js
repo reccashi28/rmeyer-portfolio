@@ -4,6 +4,7 @@ const navItem = document.querySelectorAll('.nav-item');
 const projectName = document.querySelector('.proj-name');
 const projectBtn = document.querySelector('.proj-btn');
 const gotoTop = document.querySelector('.fa-arrow-up');
+const resumeBtn = document.querySelector('.to-project-btn');
 
 //eventlistener
 hamburger.addEventListener('click', () => {
