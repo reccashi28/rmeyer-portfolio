@@ -130,8 +130,8 @@ header {
     display: none;
 }
 .navbar.fadein {
-    clip-path: circle(1000px at 90% -20%);
-    -webkit-clip-path: circle(1000px at 100% -20%);
+    clip-path: circle(500px at 90% -20%);
+    -webkit-clip-path: circle(500px at 100% -20%);
 }
 .nav-list{
     margin-top: 2rem;
