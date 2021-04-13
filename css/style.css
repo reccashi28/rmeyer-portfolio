@@ -71,9 +71,11 @@ header {
     background-image: url('/images/bg-main.png');
     background-repeat: no-repeat;
     background-size: cover;
-    object-fit: cover;
-    /* background-color: #00334e; */
+    object-fit: cover; */
+    /* background-color: #00334e;
     border-radius: 10px;
+    /* background-color: white;
+    border: 0.5px solid lightgray; */
 }
 #logo {
     position: absolute;
@@ -217,7 +219,7 @@ header {
     width: 90%;
     justify-content: space-evenly;
 }
-.left-slide {
+.header-intro__left {
     font-family: Satisfy, sans-serif;
     font-size: 30px;
     animation-name: left-animation;
@@ -229,7 +231,7 @@ header {
     padding: 10px 20px;   
     text-shadow: 0px -1px 0px rgba(255,255,255,1);
 }
-.right-slide{
+.header-intro__right{
     animation-name: right-animation; 
     animation-duration: 1s;
     font-size: 20px;
@@ -238,12 +240,12 @@ header {
     text-align: center;
     margin-left: 5rem;
 }
-.social-media {
+.header__social-media {
     display: flex; 
     animation: appear-media 0.5s;
     cursor: pointer;
  }
-.social-media li {
+ .header__social-media li {
     padding: 3px 4px 0 4px;
     font-size: 30px;
     margin-right: 15px;
@@ -253,11 +255,11 @@ header {
     border-radius: 5px;    
     list-style-type: none;
 }
-.link{
+.header__social-media__link{
     text-decoration: none;
     color: white;
 }
-.social-media li:hover {
+.header__social-media li:hover {
     border: 1px solid chocolate;
     box-shadow: 
     inset 0 2px 3px rgba(255,255,255,0.3),

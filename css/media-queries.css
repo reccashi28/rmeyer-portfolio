@@ -2,17 +2,17 @@
     #logo {      
         left: 13%;
     }
-    .social-media,
+    .header__social-media,
     .header-intro a{
         align-self: center;
         transition: all 2s ease;
         
     }
-    .social-media{
+    .header__social-media{
         width: 150px;
         justify-content: space-between;
     }
-    .social-media li {
+    .header__social-media li {
         margin-right: 0;
     }
     .navbar {
@@ -59,7 +59,7 @@
          left: 50%;
          transform: translate(-50%, -50%);
      }
-     .left-slide {
+     .header-intro__left {
         font-size: 40px;
     }
     .col {
