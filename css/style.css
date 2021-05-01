@@ -71,11 +71,7 @@ header {
     background-image: url('/images/bg-main.png');
     background-repeat: no-repeat;
     background-size: cover;
-    object-fit: cover; */
-    /* background-color: #00334e;
-    border-radius: 10px;
-    /* background-color: white;
-    border: 0.5px solid lightgray; */
+    object-fit: cover; 
 }
 #logo {
     position: absolute;
