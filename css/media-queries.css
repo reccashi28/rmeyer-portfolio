@@ -31,7 +31,7 @@
         border-bottom: 2px solid maroon;
         width: 60%;
     }
-    .desktop-list {
+    .navbar-desktop__list {
         display: flex;
         justify-content: space-between;
         width: 100%;
