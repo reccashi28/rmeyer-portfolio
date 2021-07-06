@@ -627,6 +627,8 @@ transform: translateY(0);
 .skills-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .skills-list li{
     flex-wrap: wrap;
