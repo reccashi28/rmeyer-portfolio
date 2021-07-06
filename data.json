@@ -49,6 +49,14 @@
     },
     {
         "id": 7, 
+        "title": "User Card",
+        "imgSource": "/images/user-card.png",
+        "description": "An application made with React and CSS. This project was made to practice the use of hooks, useParams and useHistory. Responsive in small screens",
+        "website": "https://rf-react-assignment.netlify.app/",
+        "sourceCode": "https://github.com/reccashi28/fs7-basic-react-assignment"
+    },
+    {
+        "id": 8, 
         "title": "Wilhelm's Cafe",
         "imgSource": "/images/wilhelm-cafe.png",
         "description": "A classy cafe website with parallax effect. This is a multiple pages site made up of HTML, CSS, Vanilla JS and JQuery.",
