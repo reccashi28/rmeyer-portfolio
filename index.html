@@ -5,7 +5,7 @@
     <title>Rebecca Meyer - Frontend Web Developer</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="/css/media-queries.css">
     <script src="https://kit.fontawesome.com/4687fe535c.js" crossorigin="anonymous"></script>
@@ -14,6 +14,7 @@
 <!-- -------------- header --------------- -->
         <header>
             <div class="header shadow">
+                <svg id="wave" class="svg1" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 190" version="1.1" xmlns="http://www.w3.org/2000/svg"><path fill="#00334e" style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,147L240,122.5C480,98,960,49,1440,81.7C1920,114,2400,229,2880,302.2C3360,376,3840,408,4320,400.2C4800,392,5280,343,5760,318.5C6240,294,6720,294,7200,277.7C7680,261,8160,229,8640,187.8C9120,147,9600,98,10080,138.8C10560,180,11040,310,11520,326.7C12000,343,12480,245,12960,220.5C13440,196,13920,245,14400,253.2C14880,261,15360,229,15840,204.2C16320,180,16800,163,17280,187.8C17760,212,18240,278,18720,310.3C19200,343,19680,343,20160,285.8C20640,229,21120,114,21600,106.2C22080,98,22560,196,23040,253.2C23520,310,24000,327,24480,310.3C24960,294,25440,245,25920,228.7C26400,212,26880,229,27360,220.5C27840,212,28320,180,28800,187.8C29280,196,29760,245,30240,220.5C30720,196,31200,98,31680,114.3C32160,131,32640,261,33120,334.8C33600,408,34080,425,34320,432.8L34560,441L34560,490L34320,490C34080,490,33600,490,33120,490C32640,490,32160,490,31680,490C31200,490,30720,490,30240,490C29760,490,29280,490,28800,490C28320,490,27840,490,27360,490C26880,490,26400,490,25920,490C25440,490,24960,490,24480,490C24000,490,23520,490,23040,490C22560,490,22080,490,21600,490C21120,490,20640,490,20160,490C19680,490,19200,490,18720,490C18240,490,17760,490,17280,490C16800,490,16320,490,15840,490C15360,490,14880,490,14400,490C13920,490,13440,490,12960,490C12480,490,12000,490,11520,490C11040,490,10560,490,10080,490C9600,490,9120,490,8640,490C8160,490,7680,490,7200,490C6720,490,6240,490,5760,490C5280,490,4800,490,4320,490C3840,490,3360,490,2880,490C2400,490,1920,490,1440,490C960,490,480,490,240,490L0,490Z"></path></svg>
                 <div class="main-nav">
                     <a href="#"><h2 id="logo" style="font-family: Lobster, sans-serif">RF.Meyer</h2></a>
                     <div class="hamburger-menu">
@@ -40,7 +41,7 @@
                 </div>
                 
                 <div class="header-intro">
-                    <h1 class="header-intro__left">I'm Rebecca</h1>
+                    <h1 class="header-intro__left"><i>Hi!</i> I'm Rebecca</h1>
                     <h2 class="header-intro__right">and I develop STUFF!</h2>
                     <a href="#"> <button class="to-project-btn">Resume</button></a>
                     <ul class="header__social-media">
@@ -53,69 +54,42 @@
             </div>
         </header><!-- -------------- end of header --------------- -->
         <!-- ----------------- projects ------------------ -->
-        <div class="project">
+
+        <div class="section_title">
             
-            <div id="project" class="shadow container">
-                <div class="background">
+            <div id="section" class="shadow container">
+                <!-- <div>
                     <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320"><path fill="#00334e" stroke="white" stroke-opacity="0.5" fill-opacity="1" d="M0,64L24,69.3C48,75,96,85,144,112C192,139,240,181,288,176C336,171,384,117,432,112C480,107,528,149,576,165.3C624,181,672,171,720,138.7C768,107,816,53,864,64C912,75,960,149,1008,181.3C1056,213,1104,203,1152,197.3C1200,192,1248,192,1296,192C1344,192,1392,192,1416,192L1440,192L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
                     <svg class="svg2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320"><path fill="#00334e" stroke="white" stroke-opacity="0.5" fill-opacity="1" d="M0,64L24,69.3C48,75,96,85,144,112C192,139,240,181,288,176C336,171,384,117,432,112C480,107,528,149,576,165.3C624,181,672,171,720,138.7C768,107,816,53,864,64C912,75,960,149,1008,181.3C1056,213,1104,203,1152,197.3C1200,192,1248,192,1296,192C1344,192,1392,192,1416,192L1440,192L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
-                </div>
-                <div class="proj-btn">
+                </div> -->
+                <div class="project__btn">
                     <p>I'm not a button.</p>
                 </div>
-                <div class="proj-name">
+                <div class="project__name">
                     <p>Projects</p>
                 </div>
-                <div class="row"> <!-- -------------- row1 --------------- -->
-                    <div class="col1 col show-on-scroll inline-animate is-visible">
-                        <h2>RoboFriends</h2>
-                        <img src="/images/robofriends.png" alt="Robofriends">
-                        <p>An app made with React fetching images from an API. Robo list data is also fetch from another API. This app functionality is to search the list of data if a certain Robo name exists inside the list.</p>
-                        <span><a href="https://rf-robofriends.netlify.app/" target="_blank">View site</a></span>
-                    </div>
-                    <div class="col1 col show-on-scroll inline-animate is-visible">
-                        <h2>Job Listings</h2>
-                        <img src="/images/job-listings.png" alt="Job Listing">
-                        <p>This is a job listing portal made with Vanillajs, HTML, SCSS. You can only search the job post by programming language, library or seniority level. Mobile first approach and 100% responsive.</p>
-                        <span><a href="https://rf-job-listing.netlify.app/" target="_blank">View site</a></span>
-                    </div>  
-                    
-                </div>
-                <div class="row"> <!-- -------------- row2 --------------- -->
-                    <div class="col1 col show-on-scroll inline-animate is-visible">
-                        <h2>WR Digital Agency</h2>
-                        <img src="/images/wr-digital-agency.png" alt="WR Digital Agency">
-                        <p>A single page digital agency website with some svgs made up of HTML, CSS and Bootstrap. It is also Responsive.</p>
-                        <span><a href="https://wrdigitalagency.netlify.app/" target="_blank">View site</a></span>
-                    </div>
-                    <div class="col1 col show-on-scroll inline-animate is-visible">
-                        <h2>Wilhelm's Cafe</h2>
-                        <img src="/images/wilhelm-cafe.png" alt="Wilhelm's Cafe">
-                        <p>A classy cafe website with parallax effect. 
-                            This is a multiple pages site made up of HTML, CSS, Vanilla JS and JQuery.</p>
-                        <span><a href="https://wilhelms-cafe.netlify.app/" target="_blank">View site</a></span>
-                    </div>
-                    
-                </div>
-                <div class="row"> <!-- -------------- row3 --------------- -->
-                    <div class="col1 col show-on-scroll inline-animate is-visible">
-                        <h2>Countrie's Main Info</h2>
-                        <img src="/images/country-main-info.png" alt="WR Digital Agency">
-                        <p>Used web api's to generate main info of a country like total population, currency and language.</p>
-                        <span><a href="https://countrymaininfo.netlify.app/" target="_blank">View site</a></span>
-                    </div>  
-                    <div class="col1 col show-on-scroll inline-animate is-visible">
-                        <h2>Pizzeria Illongga</h2>
-                        <img src="/images/ristaurante de illongga.png" alt="Pizzeria Illongga">
-                        <p>An ultimately simple yet elegant Pizzeria website that is made from scratch. 
-                            This is a single page site made up of HTML, CSS and JQuery.</p>
-                        <span><a href="https://pizzeria-illongga.netlify.app/" target="_blank">View site</a></span>
-                    </div>                 
+                <div class="project__content">
                 </div>
                 
+                
             </div>
+            <div class="project__content2">
+            </div>
+            
         </div><!-- ----------------- end of project ------------------ -->
 <!-- -------------- about me and skills  --------------- -->
+<div class="section_title">      
+    <div id="section" class="shadow container">
+        <div class="project__btn">
+            <p>I'm not a button.</p>
+        </div>
+        <div class="project__name">
+            <p>About me and my Skills</p>
+        </div>
+    </div>
+
+    
+</div>
         <div id="about-me">
             <div class="container about-me shadow">
                 <div id="about" class="is-visible inline-animate show-on-scroll">
@@ -124,8 +98,8 @@
                     </div>
                     <div class="abt-me-content">
                         <h1><u>About Me</u></h1>
-                        <p>I'm a Front End Web Developer that is passionate about
-                            transforming designs into an interactive, responsive and user friendly website.
+                        <p>I am a dedicated Full-stack developer with good analytical skills and is passionate about
+                            transforming designs and ideas into an interactive, responsive and user friendly website.
                             I'm always up for a challenge for professional growth as well as learning and sharing with same minded people.
                             </p>
                     </div>
@@ -137,17 +111,18 @@
                         <a href="https://pngtree.com/so/artificial-intelligence" target="_blank"><img src="/images/skills-img.png" alt=""></a>
                     </div>
                     <div class="skill">
-                        <h2 class="skills-name"><u>Skills</u></h2>
+                        <h1 class="skills-name"><u>Skills</u></h1>
                         <ul class="skills-list">
-                            <li>React</li>
-                            <li>HTML</li>
-                            <li>CSS3/Sass</li>
-                            <li>Javascript</li>
-                            <li>JQuery</li>
-                            <li>Bootstrap</li>
-                            <li>Responsive Web Design</li>
-                            <li>Git/Github</li>
-                            <li>Performance Optimization</li>
+                            <li><img src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" alt="JavaScript"></li>
+                            <li><img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="React"></li>
+                            <li><img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="Html"></li>
+                            <li><img src="https://www.vectorlogo.zone/logos/sass-lang/sass-lang-ar21.svg" alt="Sass"></li>
+                            <li><img src="https://www.vectorlogo.zone/logos/netlifyapp_watercss/netlifyapp_watercss-ar21.svg" alt="CSS"></li>
+                            <li><img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg" alt="Bootstrap"></li>
+                            <li><img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" alt="Node"></li>
+                            <li><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg" alt="Git"></li>
+                            <li><img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" alt="Express"></li>
+                             <li><img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg" alt="Mongodb"></li>
                         </ul>
                     </div>
                 </div>
@@ -174,7 +149,7 @@
         </div>
     <!-- --------------------- footer ----------------------     -->
         <footer>
-            <p>	&#169; 2020 by R.Meyer</p>
+            <p>	&#169; 2021 by R.Meyer</p>
             <div class="contact-icon">
                 <a href="https://github.com/rebeccafausto" target="_blank"><img src="/images/github.png" alt="Github Progfile"></a>
                 <a href="https://www.linkedin.com/feed/" target="_blank"><img src="/images/linkedin.png" alt="LinkedIn Profile"></a>

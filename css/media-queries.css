@@ -63,20 +63,21 @@
         font-size: 40px;
     }
     .col {
-        height: 410px;
+        height: auto;
         width: 600px;
     }
-    .row {
-        flex-direction: row;
-    }
     .col img {
-        width: 60%;
+        width: 30%;
+        margin-right: 1rem;
     }
-    .col1, .col2 {
-        width: 40%;
+    .col1{
+        width: 70%;
     }
-    .col-country {
-        width: 90%;
+    .project__list__content {
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
     .contact-questionm {
         width: 100px;
@@ -130,7 +131,6 @@
         border: 2px solid rgba(0, 0, 0, 0.1);
         transition: all 2s ease;
     }
-    .about-me,
     .social,
     .empty {
         height: 100vh;

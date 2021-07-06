@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1, 
+        "title": "Robofriends",
+        "imgSource": "/images/robofriends.png",
+        "description": "An app made with React fetching images from an API. Robo list data is also fetch from another API. This app functionality is to search the list of data if a certain Robo name exists inside the list.",
+        "website": "https://rf-robofriends.netlify.app/",
+        "sourceCode": ""
+    },
+    {
+        "id": 2, 
+        "title": "Countrie's Main Info",
+        "imgSource": "/images/country-main-info.png",
+        "description": "Used web api's to generate main info of a country like total population, currency and language.",
+        "website": "https://countrymaininfo.netlify.app/",
+        "sourceCode": ""
+    },
+    {
+        "id": 3, 
+        "title": "WR Digital Agency",
+        "imgSource": "/images/wr-digital-agency.png",
+        "description": "A single page digital agency website with some svgs made up of HTML, CSS and Bootstrap. It is also Responsive.",
+        "website": "https://wrdigitalagency.netlify.app/",
+        "sourceCode": ""
+    },
+    {
+        "id": 4, 
+        "title": "Wilhelm's Cafe",
+        "imgSource": "/images/wilhelm-cafe.png",
+        "description": "A classy cafe website with parallax effect. This is a multiple pages site made up of HTML, CSS, Vanilla JS and JQuery.",
+        "website": "https://wilhelms-cafe.netlify.app/",
+        "sourceCode": ""
+    },
+    {
+        "id": 5, 
+        "title": "Pizzeria Illongga",
+        "imgSource": "/images/ristaurante de illongga.png",
+        "description": "n ultimately simple yet elegant Pizzeria website that is made from scratch. This is a single page site made up of HTML, CSS and JQuery.",
+        "website": "https://pizzeria-illongga.netlify.app/",
+        "sourceCode": ""
+    }
+]
