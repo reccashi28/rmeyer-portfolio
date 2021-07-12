@@ -69,7 +69,7 @@ const loadProjects2 = (data) => {
         <div class="project__col__button">
           <span><a href="${project.website}" target="_blank">Visit Site</a></span>
           <span><a href="${project.sourceCode}" target="_blank">Code</a></span>
-          <span><a href="${project.live}" target="_blank">Code</a></span>
+          <span><a href="${project.live}" target="_blank">Live</a></span>
         </div>
         
       </div>
