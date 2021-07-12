@@ -5,7 +5,8 @@
         "imgSource": "/images/rf-store.png",
         "description": "A full-stack E-commerce application made from scratch using MERN stack technologies utilizing redux for state management and typescript for explicitly defining data types and taking advantage of Material UI for styling. It has 2 users: admin and user. User can add/remove product from cart while admin can do CRUD operations for users and products. It has an authentication and authoriyation feature to validate actions.",
         "website": "https://rf-store-dummy.netlify.app/",
-        "sourceCode": "https://github.com/reccashi28/rf-frontend-dummy"
+        "sourceCode": "https://github.com/reccashi28/rf-frontend-dummy",
+        "live": "https://youtu.be/TPZ1PwCCtyA"
     },
     {
         "id": 2, 
@@ -13,7 +14,8 @@
         "imgSource": "/images/robofriends.png",
         "description": "An app made from scratch using React, CSS and Bootstrap. It's taking advantage of a third party api to display robot images. It has a feature to search the list of data if a certain Robo name exists inside the list.",
         "website": "https://rf-robofriends.netlify.app/",
-        "sourceCode": "https://github.com/reccashi28/robo-friends"
+        "sourceCode": "https://github.com/reccashi28/robo-friends",
+        "live": ""
     },
     {
         "id": 3, 
@@ -21,7 +23,8 @@
         "imgSource": "/images/wr-digital-agency.png",
         "description": "A single page digital agency website with some svgs made up of HTML, CSS and Bootstrap. It is also Responsive.",
         "website": "https://wrdigitalagency.netlify.app/",
-        "sourceCode": "https://github.com/reccashi28/wr-digital-agency"
+        "sourceCode": "https://github.com/reccashi28/wr-digital-agency",
+        "live": ""
     },
     {
         "id": 4, 
@@ -29,7 +32,8 @@
         "imgSource": "/images/mini-ecommerce.png",
         "description": "A front-end application built from scratch which tries to mimic an e-commerce flow. Technologies used are React, Redux, Typescript and Material UI. User can add items to cart, if item is already in cart the add button will be disabled. User can also remove item from cart and the disabled button is again clickable. User can also view the details of the item by storing the item id using useParams hook.",
         "website": "https://rf-redux-typescript.netlify.app/",
-        "sourceCode": "https://github.com/reccashi28/fs7-react-redux-typescript"
+        "sourceCode": "https://github.com/reccashi28/fs7-react-redux-typescript",
+        "live": ""
     },
     {
         "id": 5, 
@@ -37,7 +41,8 @@
         "imgSource": "/images/ristaurante de illongga.png",
         "description": "An ultimately simple yet elegant Pizzeria website that is made from scratch. This is a single page site made up of HTML, CSS and JQuery.",
         "website": "https://pizzeria-illongga.netlify.app/",
-        "sourceCode": "https://github.com/reccashi28/Pizzeria-Illongga"
+        "sourceCode": "https://github.com/reccashi28/Pizzeria-Illongga",
+        "live": ""
     },
     {
         "id": 6, 
@@ -45,7 +50,8 @@
         "imgSource": "/images/country-main-info.png",
         "description": "Used web api's to generate main info of a country like total population, currency and language.",
         "website": "https://countrymaininfo.netlify.app/",
-        "sourceCode": "https://github.com/reccashi28/country-main-info"
+        "sourceCode": "https://github.com/reccashi28/country-main-info",
+        "live": ""
     },
     {
         "id": 7, 
@@ -53,7 +59,8 @@
         "imgSource": "/images/user-card.png",
         "description": "An application made with React and CSS. This project was made to practice the use of hooks, useParams and useHistory. Responsive in small screens",
         "website": "https://rf-react-assignment.netlify.app/",
-        "sourceCode": "https://github.com/reccashi28/fs7-basic-react-assignment"
+        "sourceCode": "https://github.com/reccashi28/fs7-basic-react-assignment",
+        "live": ""
     },
     {
         "id": 8, 
@@ -61,6 +68,7 @@
         "imgSource": "/images/wilhelm-cafe.png",
         "description": "A classy cafe website with parallax effect. This is a multiple pages site made up of HTML, CSS, Vanilla JS and JQuery.",
         "website": "https://wilhelms-cafe.netlify.app/",
-        "sourceCode": "https://github.com/reccashi28/wilhelms-cafe"
+        "sourceCode": "https://github.com/reccashi28/wilhelms-cafe",
+        "live": ""
     }
 ]
